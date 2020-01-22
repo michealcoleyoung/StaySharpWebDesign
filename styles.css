@@ -1,0 +1,69 @@
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #fefdfc !important;
+    }
+    
+    .navbar-custom {
+        background-color: #010203;
+    }
+    
+    .nav-link {
+        font-size: 25px;
+        font-weight: lighter;
+        color: #fefdfc;
+    }
+    
+    .image-one:hover,
+    .image-two:hover,
+    .image-three:hover {
+        filter: invert(30%);
+    }
+    /* dead center slogan */
+    
+    .slogan {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        top: 25%;
+        /* original top setting is 50% for dead center */
+        margin-top: -10px;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 100px;
+        font-weight: bolder;
+    }
+    
+    .background-image {
+        background-image: url("background.jpg");
+    }
+    
+    .slideshow {
+        margin-top: 60px;
+    }
+    
+    .jumbotron {
+        border: 2px solid black;
+    }
+    
+    .form-design {
+        margin-top: 20px;
+        border: 1px solid black;
+        border-style: hidden;
+        padding: 60px;
+        border-radius: 3px;
+        padding: 200px;
+    }
+    
+    .about {
+        text-align: center;
+        /* border: 2px solid black; */
+        width: 800px;
+        margin: 0px auto;
+    }
